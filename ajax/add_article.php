@@ -6,7 +6,7 @@
 
   $error = '';
   if(strlen($title) <= 3)
-    $error = 'Введите название статьи';
+    $error = 'Введите название статьи!';
   else if(strlen($intro) <= 15)
     $error = 'Введите интро для статьи';
   else if(strlen($text) <= 20)
